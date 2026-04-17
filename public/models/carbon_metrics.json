@@ -1,0 +1,229 @@
+{
+  "model_performance": {
+    "rmse": 7.710264160542999,
+    "mae": 4.786669142631081,
+    "r2_score": 0.9729352488009013
+  },
+  "feature_importance": {
+    "distance_km": 0.6181979768750167,
+    "vehicle_type": 0.2780455902149202,
+    "load_factor": 0.007060803781369992,
+    "traffic_condition": 0.02746896875096299,
+    "avg_speed": 0.0018826377140556817,
+    "road_type": 0.03509972331703712,
+    "temperature": 0.016209273884851657,
+    "vehicle_age": 0.013276389009463126,
+    "driver_behavior": 0.002758636452322675
+  },
+  "fleet_summary": {
+    "total_routes": 20,
+    "total_distance_km": 3690.1,
+    "total_emission_kg": 972.8,
+    "total_fuel_cost_usd": 583.74,
+    "avg_emission_per_km": 0.264,
+    "avg_efficiency_score": 97.4,
+    "potential_savings_kg": 145.9
+  },
+  "route_analytics": [
+    {
+      "route_id": "RT-100",
+      "distance_km": 188.2,
+      "vehicle_type": "Medium Truck",
+      "vehicle_type_code": 1,
+      "load_factor": 0.56,
+      "estimated_emission_kg": 49.33,
+      "fuel_cost_usd": 29.6,
+      "efficiency_score": 97.4
+    },
+    {
+      "route_id": "RT-101",
+      "distance_km": 266.0,
+      "vehicle_type": "Medium Truck",
+      "vehicle_type_code": 0,
+      "load_factor": 0.72,
+      "estimated_emission_kg": 43.66,
+      "fuel_cost_usd": 26.2,
+      "efficiency_score": 98.4
+    },
+    {
+      "route_id": "RT-102",
+      "distance_km": 112.7,
+      "vehicle_type": "Large Truck",
+      "vehicle_type_code": 1,
+      "load_factor": 0.81,
+      "estimated_emission_kg": 23.56,
+      "fuel_cost_usd": 14.14,
+      "efficiency_score": 97.9
+    },
+    {
+      "route_id": "RT-103",
+      "distance_km": 139.0,
+      "vehicle_type": "Small Van",
+      "vehicle_type_code": 1,
+      "load_factor": 0.95,
+      "estimated_emission_kg": 40.54,
+      "fuel_cost_usd": 24.33,
+      "efficiency_score": 97.1
+    },
+    {
+      "route_id": "RT-104",
+      "distance_km": 156.7,
+      "vehicle_type": "Large Truck",
+      "vehicle_type_code": 2,
+      "load_factor": 0.77,
+      "estimated_emission_kg": 54.49,
+      "fuel_cost_usd": 32.69,
+      "efficiency_score": 96.5
+    },
+    {
+      "route_id": "RT-105",
+      "distance_km": 225.0,
+      "vehicle_type": "Medium Truck",
+      "vehicle_type_code": 0,
+      "load_factor": 0.64,
+      "estimated_emission_kg": 45.3,
+      "fuel_cost_usd": 27.18,
+      "efficiency_score": 98.0
+    },
+    {
+      "route_id": "RT-106",
+      "distance_km": 83.0,
+      "vehicle_type": "Small Van",
+      "vehicle_type_code": 2,
+      "load_factor": 0.67,
+      "estimated_emission_kg": 21.76,
+      "fuel_cost_usd": 13.06,
+      "efficiency_score": 97.4
+    },
+    {
+      "route_id": "RT-107",
+      "distance_km": 165.1,
+      "vehicle_type": "Large Truck",
+      "vehicle_type_code": 2,
+      "load_factor": 0.96,
+      "estimated_emission_kg": 52.29,
+      "fuel_cost_usd": 31.37,
+      "efficiency_score": 96.8
+    },
+    {
+      "route_id": "RT-108",
+      "distance_km": 175.1,
+      "vehicle_type": "Large Truck",
+      "vehicle_type_code": 2,
+      "load_factor": 0.81,
+      "estimated_emission_kg": 76.54,
+      "fuel_cost_usd": 45.93,
+      "efficiency_score": 95.6
+    },
+    {
+      "route_id": "RT-109",
+      "distance_km": 121.7,
+      "vehicle_type": "Medium Truck",
+      "vehicle_type_code": 1,
+      "load_factor": 0.72,
+      "estimated_emission_kg": 21.89,
+      "fuel_cost_usd": 13.14,
+      "efficiency_score": 98.2
+    },
+    {
+      "route_id": "RT-110",
+      "distance_km": 280.4,
+      "vehicle_type": "Medium Truck",
+      "vehicle_type_code": 1,
+      "load_factor": 0.76,
+      "estimated_emission_kg": 84.9,
+      "fuel_cost_usd": 50.94,
+      "efficiency_score": 97.0
+    },
+    {
+      "route_id": "RT-111",
+      "distance_km": 124.1,
+      "vehicle_type": "Large Truck",
+      "vehicle_type_code": 2,
+      "load_factor": 0.78,
+      "estimated_emission_kg": 50.34,
+      "fuel_cost_usd": 30.21,
+      "efficiency_score": 95.9
+    },
+    {
+      "route_id": "RT-112",
+      "distance_km": 185.7,
+      "vehicle_type": "Large Truck",
+      "vehicle_type_code": 1,
+      "load_factor": 0.88,
+      "estimated_emission_kg": 43.66,
+      "fuel_cost_usd": 26.2,
+      "efficiency_score": 97.6
+    },
+    {
+      "route_id": "RT-113",
+      "distance_km": 57.2,
+      "vehicle_type": "Small Van",
+      "vehicle_type_code": 0,
+      "load_factor": 0.96,
+      "estimated_emission_kg": 2.57,
+      "fuel_cost_usd": 1.54,
+      "efficiency_score": 99.6
+    },
+    {
+      "route_id": "RT-114",
+      "distance_km": 232.4,
+      "vehicle_type": "Small Van",
+      "vehicle_type_code": 1,
+      "load_factor": 0.73,
+      "estimated_emission_kg": 51.55,
+      "fuel_cost_usd": 30.93,
+      "efficiency_score": 97.8
+    },
+    {
+      "route_id": "RT-115",
+      "distance_km": 82.6,
+      "vehicle_type": "Large Truck",
+      "vehicle_type_code": 0,
+      "load_factor": 0.99,
+      "estimated_emission_kg": 15.65,
+      "fuel_cost_usd": 9.39,
+      "efficiency_score": 98.1
+    },
+    {
+      "route_id": "RT-116",
+      "distance_km": 213.4,
+      "vehicle_type": "Medium Truck",
+      "vehicle_type_code": 1,
+      "load_factor": 0.55,
+      "estimated_emission_kg": 57.36,
+      "fuel_cost_usd": 34.42,
+      "efficiency_score": 97.3
+    },
+    {
+      "route_id": "RT-117",
+      "distance_km": 292.2,
+      "vehicle_type": "Large Truck",
+      "vehicle_type_code": 1,
+      "load_factor": 0.75,
+      "estimated_emission_kg": 84.15,
+      "fuel_cost_usd": 50.49,
+      "efficiency_score": 97.1
+    },
+    {
+      "route_id": "RT-118",
+      "distance_km": 291.8,
+      "vehicle_type": "Small Van",
+      "vehicle_type_code": 2,
+      "load_factor": 0.83,
+      "estimated_emission_kg": 82.23,
+      "fuel_cost_usd": 49.34,
+      "efficiency_score": 97.2
+    },
+    {
+      "route_id": "RT-119",
+      "distance_km": 297.8,
+      "vehicle_type": "Medium Truck",
+      "vehicle_type_code": 1,
+      "load_factor": 0.94,
+      "estimated_emission_kg": 71.06,
+      "fuel_cost_usd": 42.64,
+      "efficiency_score": 97.6
+    }
+  ]
+}

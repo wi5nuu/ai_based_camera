@@ -1,0 +1,95 @@
+{
+  "f1_score": 0.9012738853503185,
+  "auc_roc": 0.9628774700031223,
+  "accuracy": 0.8966666666666666,
+  "feature_importance": {
+    "remaining_time": 0.24007100855386143,
+    "distance_to_destination": 0.6892843380655779,
+    "current_speed": 0.025745557071920087,
+    "traffic_congestion": 0.004717921641099853,
+    "weather_condition": 0.005940569580722239,
+    "vehicle_condition": 0.009139573094411647,
+    "driver_fatigue": 0.0193224508387682,
+    "delivery_priority": 0.0026617226149704323,
+    "time_of_day": 0.0029217836760823367,
+    "day_type": 0.0001950748625860331
+  },
+  "sample_alerts": [
+    {
+      "delivery_id": "DEL-1000",
+      "risk_score": 0.9,
+      "risk_category": "Low",
+      "alert_color": "green",
+      "recommended_action": "Continue"
+    },
+    {
+      "delivery_id": "DEL-1001",
+      "risk_score": 98.6,
+      "risk_category": "Critical",
+      "alert_color": "red",
+      "recommended_action": "Reroute"
+    },
+    {
+      "delivery_id": "DEL-1002",
+      "risk_score": 93.2,
+      "risk_category": "Critical",
+      "alert_color": "red",
+      "recommended_action": "Reroute"
+    },
+    {
+      "delivery_id": "DEL-1003",
+      "risk_score": 3.1,
+      "risk_category": "Low",
+      "alert_color": "green",
+      "recommended_action": "Continue"
+    },
+    {
+      "delivery_id": "DEL-1004",
+      "risk_score": 16.9,
+      "risk_category": "Low",
+      "alert_color": "green",
+      "recommended_action": "Continue"
+    },
+    {
+      "delivery_id": "DEL-1005",
+      "risk_score": 2.3,
+      "risk_category": "Low",
+      "alert_color": "green",
+      "recommended_action": "Continue"
+    },
+    {
+      "delivery_id": "DEL-1006",
+      "risk_score": 3.3,
+      "risk_category": "Low",
+      "alert_color": "green",
+      "recommended_action": "Continue"
+    },
+    {
+      "delivery_id": "DEL-1007",
+      "risk_score": 22.8,
+      "risk_category": "Low",
+      "alert_color": "green",
+      "recommended_action": "Continue"
+    },
+    {
+      "delivery_id": "DEL-1008",
+      "risk_score": 0.7,
+      "risk_category": "Low",
+      "alert_color": "green",
+      "recommended_action": "Continue"
+    },
+    {
+      "delivery_id": "DEL-1009",
+      "risk_score": 34.7,
+      "risk_category": "Medium",
+      "alert_color": "yellow",
+      "recommended_action": "Continue"
+    }
+  ],
+  "risk_distribution": {
+    "low_risk": 252,
+    "medium_risk": 51,
+    "high_risk": 40,
+    "critical_risk": 257
+  }
+}

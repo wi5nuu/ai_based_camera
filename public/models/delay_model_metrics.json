@@ -1,0 +1,17 @@
+{
+  "rmse": 0.49309569805952325,
+  "f1_score": 0.7444574095682613,
+  "accuracy": 0.781,
+  "feature_importance": {
+    "distance_km": 0.1253478269956715,
+    "traffic_index": 0.09834369508028878,
+    "weather_severity": 0.19279833570892801,
+    "vehicle_age": 0.11729164575342581,
+    "driver_experience": 0.09337121890695663,
+    "package_weight": 0.10711710372902163,
+    "hour_of_day": 0.05714048612682641,
+    "day_of_week": 0.03631099150615159,
+    "historical_delays": 0.0821157667705427,
+    "route_complexity": 0.09016292942218712
+  }
+}
